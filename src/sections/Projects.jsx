@@ -20,6 +20,15 @@ const projects = [
     link: 'https://rental-app-silk-kappa.vercel.app/',
     status: 'live',
   },
+  {
+    id: 'rentflow-docs',
+    emoji: '📄',
+    title: 'RentFlow Documentation',
+    desc: 'Full technical documentation for RentFlow — covering architecture, Firestore structure, role-based access, and API references.',
+    tags: ['Documentation', 'Vercel'],
+    link: 'https://rent-flow-documentation.vercel.app/',
+    status: 'live',
+  },
 ]
 
 function ProjectCard({ project, delay }) {
